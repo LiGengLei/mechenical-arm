@@ -1,0 +1,2 @@
+com_win:mobot_description:swj_socket:three_link
+-DCATKIN_DEVEL_PREFIX=/home/lgl/master/mechanical_arm/arm/devel -DCMAKE_INSTALL_PREFIX=/home/lgl/master/mechanical_arm/arm/install -G Unix Makefiles

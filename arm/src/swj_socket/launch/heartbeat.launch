@@ -1,0 +1,7 @@
+<launch>
+<node pkg="swj_socket" type="heartbeat_send" name="heartSend" respawn="true" />
+<node pkg="swj_socket" type="heartbeat_recv" name="heartRecv" respawn="true"  />
+<node pkg="swj_socket" type="socket_recv" name="socket_recv" respawn="true" launch-prefix="xterm -e"/>
+<node pkg="swj_socket" type="socket_send" name="socket_send" respawn="true" launch-prefix="xterm -e" />
+<node pkg="com_win"    type="com_win"     name="com_win"     respawn="true" />
+</launch>

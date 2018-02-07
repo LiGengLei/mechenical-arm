@@ -1,0 +1,8 @@
+prefix=/home/lgl/master/mechanical_arm/arm/install
+
+Name: mobot_description
+Description: Description of mobot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lgl/master/mechanical_arm/arm/install/lib 
+Requires: moveit_core moveit_ros_planning_interface interactive_markers std_msgs geometry_msgs sensor_msgs trajectory_msgs control_msgs message_runtime tf

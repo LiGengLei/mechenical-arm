@@ -1,0 +1,17 @@
+-I/home/lgl/master/mechanical_arm/arm/devel/include
+-I/opt/ros/indigo/include
+-I/usr/include
+-I/usr/local/Trolltech/Qt-4.8.1/include
+-I/usr/local/Trolltech/Qt-4.8.1/include/QtGui
+-I/usr/local/Trolltech/Qt-4.8.1/include/QtCore
+-I/home/lgl/master/mechanical_arm/arm/build/com_win
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="com_win"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-DQT_NO_DEBUG
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-DQT_NO_KEYWORDS
+-o
+/home/lgl/master/mechanical_arm/arm/build/com_win/include/com_win/moc_qnode.cxx
+/home/lgl/master/mechanical_arm/arm/src/com_win/include/com_win/qnode.hpp

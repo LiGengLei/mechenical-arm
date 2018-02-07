@@ -1,0 +1,8 @@
+prefix=/home/lgl/master/mechanical_arm/arm/devel
+
+Name: com_win
+Description: Description of com_win
+Version: 0.1.0
+Cflags: -I/home/lgl/master/mechanical_arm/arm/devel/include
+Libs: -L/home/lgl/master/mechanical_arm/arm/devel/lib 
+Requires: 

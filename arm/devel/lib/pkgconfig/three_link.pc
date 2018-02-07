@@ -1,0 +1,8 @@
+prefix=/home/lgl/master/mechanical_arm/arm/devel
+
+Name: three_link
+Description: Description of three_link
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/lgl/master/mechanical_arm/arm/devel/lib 
+Requires: 
